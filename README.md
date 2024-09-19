@@ -1,5 +1,5 @@
 # Analysis of Stack Overflow 2024 Survey
-## Source: [https://survey.stackoverflow.co/](https://survey.stackoverflow.co/2024)
+## Source: [survey.stackoverflow.co](https://survey.stackoverflow.co/2024)
 This analysis summarizes the feedback from the survey as per the title and displays significant insights from it.
 ## Libraries used
 - pandas
