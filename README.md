@@ -1,6 +1,6 @@
 # Analysis of Stack Overflow 2024 Survey
 ## Source: [survey.stackoverflow.co](https://survey.stackoverflow.co/2024)
-This analysis summarizes the feedback from the survey as per the title and displays significant insights from it.
+This analysis summarizes the feedback from the survey according to the title and shows significant insights from it.
 ## Libraries used
 - pandas
 - numpy
@@ -8,11 +8,11 @@ This analysis summarizes the feedback from the survey as per the title and displ
 - collections
 - plotly
 ## Steps Followed
-- Loaded .csv File for Analysis in Pandas
-- Used separate functions per analysis
-- Created a visual presentation of each survey question
+- Loaded .csv File for Analysis in Pandas.
+- Used separate functions per analysis.
+- Created a visual presentation of each survey question.
 ## Sample Function
-A function that categorises the developer responses into 4 main areas
+A function that categorises the developer responses into 4 main areas:
 ```
 def get_category_of_interest(cleaned_data, category_filter='All Respondents'):
     """ Filters a data frame  to get the category of interest."""
@@ -42,5 +42,5 @@ def get_category_of_interest(cleaned_data, category_filter='All Respondents'):
         return None  
 ```
 ## Sample Visual
-Visual representation of median annual salary in USD Vs work experience
+Visual representation of Median Annual Salary in USD Vs Work Experience:
 ![Line Chart.](linechartsample.png)
